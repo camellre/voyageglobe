@@ -9,13 +9,3 @@ body,
   width: 100%;
   height: 100%;
 }
-
-.page-container {
-  padding: 3rem 0;
-}
-
-@media screen and (min-width: 960px) {
-  .page-container {
-    padding: 5rem 0;
-  }
-}

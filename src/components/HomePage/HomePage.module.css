@@ -1,0 +1,9 @@
+.pageContainer {
+  padding: 3rem 0;
+}
+
+@media screen and (min-width: 960px) {
+  .pageContainer {
+    padding: 5rem 0;
+  }
+}

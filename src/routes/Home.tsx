@@ -1,4 +1,5 @@
 import Footer from "../components/Footer/Footer";
+import HomePage from "../components/HomePage/HomePage";
 import NavBar from "../components/NavBar/NavBar";
 
 function Home() {
@@ -7,7 +8,7 @@ function Home() {
       <header>
         <NavBar />
       </header>
-      <main className="page-container">HomePage</main>
+      <HomePage />
       <Footer />
     </>
   );
