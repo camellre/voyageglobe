@@ -1,9 +1,14 @@
+import Footer from "../components/Footer/Footer";
+import NavBar from "../components/NavBar/NavBar";
+
 function Home() {
   return (
     <>
-      <header>header</header>
-      <main>mainpage</main>
-      <footer>footer</footer>
+      <header>
+        <NavBar />
+      </header>
+      <main className="page-container">HomePage</main>
+      <Footer />
     </>
   );
 }
