@@ -3,12 +3,13 @@
   background-image: url(../../assets/planeWindows-2560.webp);
   background-position: center;
   background-size: cover;
-  filter: brightness(1.4);
+  /* filter: brightness(1.4); */
   height: 40rem;
-  display: grid;
+  /* display: grid;
   grid-auto-columns: minmax(0, auto);
   grid-auto-rows: minmax(0, auto);
   justify-items: center;
-  align-items: center;
+  align-items: center; */
   color: white;
+  text-align: center;
 }
