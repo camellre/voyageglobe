@@ -1,3 +1,4 @@
+/* nav bar background */
 .background {
   position: fixed;
   top: 0;
@@ -8,5 +9,52 @@
 @media screen and (min-width: 960px) {
   .background {
     height: 5rem;
+  }
+}
+
+/* nav bar container */
+.navBar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+  max-width: 75rem;
+  padding: 0 1rem;
+  margin: 0 auto;
+}
+
+/* nav bar logo */
+.logo {
+  height: 2rem;
+}
+
+@media screen and (min-width: 960px) {
+  .logo {
+    height: 3rem;
+  }
+}
+
+/* nav bar menu container */
+.menu {
+  display: none;
+}
+
+@media screen and (min-width: 960px) {
+  .menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-basis: 25rem;
+  }
+}
+
+/* nav bar contact button */
+.contactButton {
+  display: none;
+}
+
+@media screen and (min-width: 960px) {
+  .contactButton {
+    display: flex;
   }
 }
