@@ -1,16 +1,23 @@
 import Button from "../../genericComponents/Button/Button";
 import style from "./LandingPageTravel.module.css";
+import passport from "../../assets/passport_1.webp";
 
 function LandingPageTravel() {
   return (
     <article className={style.background}>
-      <h2>Travel With True Freedom</h2>
-      <h2>By Investing In A Second Citizenship</h2>
-      <p>
-        Open the door to a truely free world for you and your family by
-        zero-risk Citizenship by Investment program
-      </p>
-      <Button text="Learn More" />
+      <div className={style.container}>
+        <h2 className={style.title}>
+          Travel With True Freedom
+          {/* <br />
+          By Investing In A Second Citizenship */}
+        </h2>
+        <p className={style.subTitle}>
+          Open the door to a truely free world for you and your family by
+          zero-risk Citizenship by Investment Program
+        </p>
+        <Button text="Learn More" containerStyle={style.button} />
+        <img src={passport} alt="" className={style.passportImage} />
+      </div>
     </article>
   );
 }
