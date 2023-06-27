@@ -1,0 +1,17 @@
+@media screen and (min-width: 960px) {
+  /* content container */
+  .container {
+    display: grid;
+    grid-template-columns: repeat(12, minmax(0, 1fr));
+    grid-template-rows: repeat(12, minmax(0, 1fr));
+    justify-items: center;
+    align-items: center;
+    height: 40rem;
+  }
+
+  /* content image */
+  .image {
+    grid-column: 2/10;
+    grid-row: 2/12;
+  }
+}

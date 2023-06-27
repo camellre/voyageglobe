@@ -1,5 +1,7 @@
 .pageContainer {
   padding: 3rem 0;
+  position: relative;
+  z-index: 2;
 }
 
 @media screen and (min-width: 960px) {

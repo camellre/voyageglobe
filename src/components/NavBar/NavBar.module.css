@@ -5,6 +5,7 @@
   height: 3rem;
   width: 100%;
   background-color: white;
+  z-index: 3;
 }
 
 @media screen and (min-width: 960px) {
