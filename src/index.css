@@ -359,6 +359,7 @@ video {
   max-width: 100%;
   height: auto;
   max-height: 100%;
+  /* width: auto; */
 }
 
 /* Make elements with the HTML hidden attribute stay hidden by default */

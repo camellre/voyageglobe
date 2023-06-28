@@ -12,7 +12,7 @@ function LandingPageTravel() {
           By Investing In A Second Citizenship */}
         </h2>
         <p className={style.subTitle}>
-          Open the door to a truely free world for you and your family by
+          Open the door to a truely free world for you and your family with
           zero-risk Citizenship by Investment Program
         </p>
         <Button text="Learn More" containerStyle={style.button} />
