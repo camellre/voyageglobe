@@ -7,14 +7,12 @@ function LandingPageEducation() {
     <article className={style.container}>
       <img src={educationImage} alt="" className={style.image} />
       <div className={style.card}>
-        <h2 className={style.title}>
-          The Best Education For Your Beloved Family
-        </h2>
-        <p>
+        <h2 className={style.title}>Elite Education For Your Beloved Family</h2>
+        <p className={style.text}>
           Invest in the future of your family by accessing the world renowned
           education system
         </p>
-        <Button text="Learn More" />
+        <Button text="Learn More" containerStyle={style.button} />
       </div>
     </article>
   );
