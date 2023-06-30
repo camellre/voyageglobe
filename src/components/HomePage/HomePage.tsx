@@ -1,4 +1,5 @@
 import LandingPageEducation from "../LandingPageEducation/LandingPageEducation";
+import LandingPageGlobal from "../LandingPageGlobal/LandingPageGlobal";
 import LandingPageTravel from "../LandingPageTravel/LandingPageTravel";
 import style from "./HomePage.module.css";
 
@@ -10,6 +11,9 @@ function HomePage() {
       </section>
       <section>
         <LandingPageEducation />
+      </section>
+      <section>
+        <LandingPageGlobal />
       </section>
     </main>
   );
