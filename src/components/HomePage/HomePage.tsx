@@ -1,3 +1,4 @@
+import CountrySlider from "../CountrySlider/CountrySlider";
 import LandingPageEducation from "../LandingPageEducation/LandingPageEducation";
 import LandingPageGlobal from "../LandingPageGlobal/LandingPageGlobal";
 import LandingPageTravel from "../LandingPageTravel/LandingPageTravel";
@@ -18,6 +19,9 @@ function HomePage() {
       </section>
       <section className={style.pageSection}>
         <Reason />
+      </section>
+      <section className={style.pageSection}>
+        <CountrySlider />
       </section>
     </main>
   );
