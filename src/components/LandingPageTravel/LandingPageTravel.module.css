@@ -35,7 +35,7 @@
 /* h2 titles */
 .title {
   font-size: 1.875rem;
-  font-weight: 700;
+  font-weight: 500;
   grid-column: 2/12;
   grid-row: 4;
   white-space: normal;
