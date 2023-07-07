@@ -7,16 +7,16 @@ import style from "./HomePage.module.css";
 function HomePage() {
   return (
     <main className={style.pageContainer}>
-      <section>
+      <section className={style.pageSection}>
         <LandingPageTravel />
       </section>
-      <section>
+      <section className={style.pageSection}>
         <LandingPageEducation />
       </section>
-      <section>
+      <section className={style.pageSection}>
         <LandingPageGlobal />
       </section>
-      <section>
+      <section className={style.pageSection}>
         <Reason />
       </section>
     </main>
