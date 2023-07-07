@@ -1,3 +1,33 @@
+/*Noto Sans Fonts */
+
+@font-face {
+  font-family: 'notosans';
+  src: url('fonts/notosans/notosans-regular-webfont.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'notosans';
+  src: url('fonts/notosans/notosans-medium-webfont.woff2') format('woff2');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'notosans';
+  src: url('fonts/notosans/notosans-semibold-webfont.woff2') format('woff2');
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'notosans';
+  src: url('fonts/notosans/notosans-bold-webfont.woff2') format('woff2');
+  font-weight: 700;
+  font-style: normal;
+}
+
 /*
 1. Prevent padding and border from affecting element width. (https://github.com/mozdevs/cssremedy/issues/4)
 */
@@ -19,12 +49,7 @@ html {
   -webkit-text-size-adjust: 100%; /* 2 */
   -moz-tab-size: 4; /* 3 */
   tab-size: 4; /* 3 */
-  font-family: system-ui, /* macOS 10.11-10.12 */ -apple-system,
-    /* Windows 6+ */ "Segoe UI", /* Android 4+ */ "Roboto",
-    /* Ubuntu 10.10+ */ "Ubuntu", /* Gnome 3+ */ "Cantarell",
-    /* KDE Plasma 5+ */ "Noto Sans", /* fallback */ sans-serif,
-    /* macOS emoji */ "Apple Color Emoji", /* Windows emoji */ "Segoe UI Emoji",
-    /* Windows emoji */ "Segoe UI Symbol", /* Linux emoji */ "Noto Color Emoji";
+  font-family: notosans, /* fallback */ system-ui, /* fallback */ sans-serif;
 }
 
 /*
