@@ -1,5 +1,5 @@
 import style from "./NavBar.module.css";
-import logo from "../../assets/huida-logo.svg";
+import logo from "../../assets/voyageglobe_logo_new_color_no_padding.webp";
 import Button from "../../genericComponents/Button/Button";
 function NavBar() {
   return (
