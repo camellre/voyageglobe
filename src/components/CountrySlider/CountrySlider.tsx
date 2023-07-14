@@ -4,7 +4,7 @@ import style from "./CountrySlider.module.css";
 // import grenada_flag from "../../assets/grenada_flag.webp";
 // import malta_flag from "../../assets/malta_flag.webp";
 // import portugal_flag from "../../assets/portugal_flag.webp";
-// import stkittis_flag from "../../assets/stkitts_flag.webp";
+// import stkitts_flag from "../../assets/stkitts_flag.webp";
 // import turkey_flag from "../../assets/turkey_flag.webp";
 // import usa_flag from "../../assets/usa_flag.webp";
 import antiguaBackground from "../../assets/antigua_barbuda.webp";
@@ -12,7 +12,7 @@ import dominicaBackground from "../../assets/dominica.webp";
 import grenadaBackground from "../../assets/grenada.webp";
 import maltaBackground from "../../assets/Malta.webp";
 import portugalBackground from "../../assets/portugal.webp";
-import stkittisBackground from "../../assets/st_kitts.webp";
+import stkittsBackground from "../../assets/st_kitts.webp";
 import turkeyBackground from "../../assets/turkiye.webp";
 import usaBackground from "../../assets/usa.webp";
 import { useState } from "react";
@@ -81,8 +81,8 @@ function CountrySlider() {
     ad_1: "8个月",
     ad_2: "139+免签国",
     ad_3: "30万美元起",
-    background: stkittisBackground,
-    to: "/citizenship/stkittis",
+    background: stkittsBackground,
+    to: "/citizenship/stkitts",
   };
 
   const turkeyContent = {
@@ -139,12 +139,12 @@ function CountrySlider() {
               } as React.CSSProperties
             }
           >
-            <h2 className={style.contentBodyTitle}>{item.title}</h2>
-            <p className={style.contentBodyText}>{item.bodyText}</p>
-            <div className={style.contentAdWrapper}>
-              <p className={style.contentAd_1}>{item.ad_1}</p>
-              <p className={style.contentAd_2}>{item.ad_2}</p>
-              <p className={style.contentAd_3}>{item.ad_3}</p>
+            <h2 className={style.title}>{item.title}</h2>
+            <p className={style.text}>{item.bodyText}</p>
+            <div className={style.adWrapper}>
+              <p className={style.ad_1}>{item.ad_1}</p>
+              <p className={style.ad_2}>{item.ad_2}</p>
+              <p className={style.ad_3}>{item.ad_3}</p>
             </div>
             <Button text="Learn More" containerStyle={style.contentButton} />
           </div>
