@@ -86,23 +86,23 @@ function CountrySlider() {
   };
 
   const turkeyContent = {
-    title: "土耳其",
+    title: "Turkey",
     bodyText:
-      "土耳其是一个独特的地理位置位于欧亚大陆的国家，其第二公民身份项目也拥有很多优势。作为拥有多元文化、先进经济体和具有战略地位的国家，土耳其的第二公民身份能够为申请人带来免签证旅行、资产保护、税收优惠等在内的多种福利。此外，土耳其的第二公民身份还可以为申请人在国际商务和投资方面带来更多的机会和优势，为其未来的事业发展带来更多的可能性。",
-    ad_1: "8个月",
-    ad_2: "E2签证",
-    ad_3: "30万美元起",
+      "Turkey is a country uniquely located on the Eurasian continent, and its second citizenship program also has many advantages. As a country with diverse culture, advanced economy, and strategic location, Turkey's second citizenship can bring applicants numerous benefits, including visa-free travel, asset protection, and tax advantages. Additionally, Turkey's second citizenship can bring more opportunities and advantages for applicants in international business and investment, bringing more possibilities for their future career development.",
+    ad_1: "8 Months",
+    ad_2: "US E-2 Visa",
+    ad_3: "Starting With $300,000",
     background: turkeyBackground,
     to: "/citizenship/turkey",
   };
 
   const usaContent = {
-    title: "美国",
+    title: "United States",
     bodyText:
-      "美国，全球超级大国，以其全面优势和护照实力吸引着无数高净值人士。作为美国公民，您将享受世界上最发达的福利制度，医疗、养老和社会保障等方面都堪称一流。美国家庭生活质量高，房产、税收和投资环境优越，使您的家庭生活更为稳定。此外，美国的教育资源世界领先，拥有哈佛、耶鲁等顶级名校，为子女提供广阔的发展空间。总之，入籍美国意味着获得更好的生活品质、优越的教育资源和全球通行的护照，是高净值人士理想的选择。",
-    ad_1: "1-5年",
-    ad_2: "130+免签国",
-    ad_3: "15万美元起",
+      "The United States, a global superpower, attracts countless high-net-worth individuals with its comprehensive advantages and passport strength. As a U.S. citizen, you will enjoy one of the world's most developed welfare systems, with top-notch medical, pension, and social security. High-quality family life, superior real estate, tax, and investment environment make your family life more stable. Additionally, U.S. educational resources are world-leading, with top universities such as Harvard and Yale, providing broad development space for children. In summary, becoming a U.S. citizen means gaining a better quality of life, superior educational resources, and a globally recognized passport, an ideal choice for high-net-worth individuals.",
+    ad_1: "3 - 5 years",
+    ad_2: "180+ Visa-Free Countries",
+    ad_3: "Starting With $800,000",
     background: usaBackground,
     to: "/citizenship/usa",
   };

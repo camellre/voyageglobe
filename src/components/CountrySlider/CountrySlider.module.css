@@ -31,10 +31,11 @@
   display: grid;
   justify-items: center;
   align-content: center;
+  row-gap: 1rem;
 }
 
 @media screen and (min-width: 960px) {
   .container {
-    overflow: hidden;
+    overflow: scroll;
   }
 }
