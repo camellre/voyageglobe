@@ -5,6 +5,18 @@
   height: 40rem;
   display: grid;
   overflow-x: scroll;
+  position: relative;
+}
+
+/* flags */
+.flags {
+  position: sticky;
+  top: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  z-index: 1;
 }
 
 /* slide */

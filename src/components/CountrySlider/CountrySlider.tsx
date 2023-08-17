@@ -1,12 +1,12 @@
 import style from "./CountrySlider.module.css";
-// import antigua_flag from "../../assets/antigua_flag.webp";
-// import dominica_flag from "../../assets/dominica_flag.webp";
-// import grenada_flag from "../../assets/grenada_flag.webp";
-// import malta_flag from "../../assets/malta_flag.webp";
-// import portugal_flag from "../../assets/portugal_flag.webp";
-// import stkitts_flag from "../../assets/stkitts_flag.webp";
-// import turkey_flag from "../../assets/turkey_flag.webp";
-// import usa_flag from "../../assets/usa_flag.webp";
+import antigua_flag from "../../assets/antigua_flag.webp";
+import dominica_flag from "../../assets/dominica_flag.webp";
+import grenada_flag from "../../assets/grenada_flag.webp";
+import malta_flag from "../../assets/malta_flag.webp";
+import portugal_flag from "../../assets/portugal_flag.webp";
+import stkitts_flag from "../../assets/stkitts_flag.webp";
+import turkey_flag from "../../assets/turkey_flag.webp";
+import usa_flag from "../../assets/usa_flag.webp";
 import antiguaBackground from "../../assets/antigua_barbuda.webp";
 import dominicaBackground from "../../assets/dominica.webp";
 import grenadaBackground from "../../assets/grenada.webp";
@@ -121,6 +121,16 @@ function CountrySlider() {
 
   return (
     <article className={style.container}>
+      <div className={style.flags}>
+        <img src={antigua_flag} alt="" />
+        <img src={dominica_flag} alt="" />
+        <img src={grenada_flag} alt="" />
+        <img src={malta_flag} alt="" />
+        <img src={portugal_flag} alt="" />
+        <img src={stkitts_flag} alt="" />
+        <img src={turkey_flag} alt="" />
+        <img src={usa_flag} alt="" />
+      </div>
       {contentList.map((item, index) => (
         <div
           key={index}
